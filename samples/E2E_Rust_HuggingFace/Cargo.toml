@@ -1,0 +1,9 @@
+[package]
+name = "e2e-rust-huggingface"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+foundry-local-sdk = { path = "../../Foundry-Local/sdk/rust" }
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }

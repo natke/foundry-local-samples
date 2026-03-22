@@ -1,0 +1,19 @@
+{
+  "name": "e2e-javascript-huggingface",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "E2E test for HuggingFace model download using JavaScript/TypeScript SDK",
+  "scripts": {
+    "test": "tsx test_huggingface_e2e.ts"
+  },
+  "keywords": ["foundry-local", "huggingface", "e2e", "test"],
+  "author": "Microsoft",
+  "license": "MIT",
+  "dependencies": {
+    "foundry-local-sdk": "file:../../Foundry-Local/sdk/js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0"
+  }
+}

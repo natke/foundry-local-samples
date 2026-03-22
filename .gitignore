@@ -1,0 +1,9 @@
+# .NET build output
+**/bin/
+**/obj/
+
+# Rust build output
+**/target/
+
+# Node.js
+**/node_modules/

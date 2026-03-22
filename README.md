@@ -8,7 +8,6 @@ This folder contains **end-to-end samples** demonstrating the unified HuggingFac
 - **C# (.NET 9.0)**
 - **JavaScript/TypeScript (Node.js 18+)**
 - **Rust**
-- **HuggingFaceDownloadSample** (C#) — full-featured download and metadata demo
 
 All samples show how to:
 1. Add a HuggingFace model to the catalog (fast, metadata only)
@@ -25,7 +24,6 @@ All samples show how to:
 - **E2E_CSharp_HuggingFace/** — C# end-to-end test, see [README](E2E_CSharp_HuggingFace/README.md)
 - **E2E_JavaScript_HuggingFace/** — TypeScript/JavaScript end-to-end test, see [README](E2E_JavaScript_HuggingFace/README.md)
 - **E2E_Rust_HuggingFace/** — Rust end-to-end test (see `src/main.rs`)
-- **HuggingFaceDownloadSample/** — C# sample with advanced metadata, subdirectory, and integration features, see [README](HuggingFaceDownloadSample/README.md)
 
 ---
 
@@ -51,13 +49,6 @@ cd samples/E2E_Rust_HuggingFace
 cargo run
 ```
 
-### HuggingFaceDownloadSample (C#)
-```bash
-cd samples/HuggingFaceDownloadSample
-dotnet build
-dotnet run
-```
-
 ---
 
 ## Prerequisites
@@ -75,4 +66,3 @@ See each sample's README for language-specific requirements.
 
 - See [E2E_HuggingFace_README.md](E2E_HuggingFace_README.md) for a cross-language overview and test model details.
 - Each sample folder contains a README with usage and expected output.
-- For advanced download and metadata features, see [HuggingFaceDownloadSample/README.md](HuggingFaceDownloadSample/README.md) and [INSTRUCTIONS.md](HuggingFaceDownloadSample/INSTRUCTIONS.md).
